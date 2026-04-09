@@ -16,6 +16,9 @@ touch .env
 sudo docker compose up
 ```
 
+## Backend
+Работа с приложенем реализована через swagger(для простоты реализации с упором на серверную часть) по адресу [localhost:8000/docs](http://localhost:8000/docs)
+
 ## Очистить базу и выключиь контейнеры
 ```console
 sudo docker compose down -v
